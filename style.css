@@ -1,0 +1,1135 @@
+* {
+      box-sizing: inherit;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Source Sans 3", sans-serif;
+}
+
+.navbar {
+      font-family: 'Source Sans Pro Topnav', sans-serif;
+
+      display: flex;
+
+
+}
+
+.navbar-left {
+      display: flex;
+
+      flex: 1;
+      padding-left: 25px;
+}
+
+
+.navbar-left input {
+      border-radius: 25px;
+
+      border: 1px solid gray;
+      padding: 7px 5px 7px 20px;
+
+}
+
+.menu-wrapper div {
+      margin-left: 20px;
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      cursor: pointer;
+
+}
+
+.menu-wrapper :hover {
+      background-color: #04AA6D;
+      color: white;
+}
+
+.menu-wrapper {
+      display: flex;
+      justify-content: center;
+}
+
+.navbar-left img {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      margin-top: 10px;
+}
+
+input {
+      margin: 20px;
+}
+
+.wrapper {
+      margin-top: 18px;
+      height: 40px;
+      width: 40px;
+}
+
+.wrapper img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+}
+
+.dark-mode-wrapper,
+.wrapper {
+      display: flex;
+      padding: 5 px !important;
+      padding-left: 10px;
+}
+
+.wrapper img {
+      width: 20px;
+      height: 20px;
+}
+
+.dark-mode-wrapper :hover {
+      background-color: gray;
+      border-radius: 50%;
+}
+
+.navbar-right {
+      display: flex;
+      align-items: end;
+      justify-content: end;
+
+
+      flex: 1;
+
+}
+
+.plus-hover {
+      display: flex;
+
+      padding: 8px 15px 20px 15px;
+
+
+}
+
+.plus {
+      display: flex;
+      padding: 10px;
+}
+
+.plus img {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+}
+
+.plus-hover :hover {
+      background-color: rgb(241, 240, 240);
+      border-radius: 50px;
+
+}
+
+.right-hover {
+      display: flex;
+      padding: 15px;
+      justify-content: center;
+      align-items: center;
+}
+
+.sign {
+      font-size: 16px;
+      background-color: #04AA6D;
+      color: white;
+      padding: 15px;
+      border-radius: 25px;
+      width: 100px;
+      height: 50px;
+      z-index: 1;
+      margin-right: 10px;
+}
+
+.log {
+      font-size: 16px;
+      background-color: #D9EEE1;
+      color: black;
+      border-radius: 25px;
+      width: 112px;
+      height: 50px;
+      padding: 15px;
+      padding-left: 55px;
+      color: black;
+      border-radius: 25px;
+      margin-left: -55px;
+
+
+}
+
+.right-hover :hover {
+      background-color: #029961;
+}
+
+.second-navbar {
+      display: flex;
+      color: white;
+      justify-content: center;
+      padding-left: 20PX;
+      background-color: #282A35;
+}
+
+.second-navbar :hover {
+      background-color: #060606;
+}
+
+.huver {
+      padding: 5px 15px 5px 15px !important;
+      font-size: 15px !important;
+}
+
+.mainpage {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-image: url(https://www.w3schools.com/images/lynx_in_space.webp), url(https://www.w3schools.com/images/background_in_space.webp);
+      background-repeat: no-repeat, repeat;
+      background-position: 90% 60%, center center;
+      width: 1440px;
+      height: 500px;
+      text-align: center;
+}
+
+.mainpage h1 {
+      font-size: 70px;
+      font-weight: 700;
+      color: white;
+      padding-top: 90px;
+}
+
+.mainpage h3 {
+      color: #FFF4A3;
+      font-weight: 700;
+      margin: 30px;
+      font-size: 23px;
+
+}
+
+.mainpage input {
+      border: solid white;
+      margin-right: -0px;
+      text-shadow: gray;
+      font-size: 20px;
+      width: 450px;
+      height: 50px;
+      border-radius: 25px;
+      padding-left: 20px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      cursor: pointer;
+      border-right: 1px solid #04AA6D;
+}
+
+.hovergree button {
+      height: 50px;
+      margin-top: -0.5px !important;
+
+      border-radius: 25px;
+      float: left;
+      width: 130px;
+      padding: 10px;
+      background: #04AA6D;
+      color: white;
+      font-size: 17px;
+
+      border-left: none;
+      cursor: pointer;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+
+}
+
+.inputwrappe {
+
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+}
+
+.hovergree :hover {
+      background-color: #029961;
+}
+
+.coppp {
+      width: 1440px;
+      height: 90px;
+      margin-bottom: -7px;
+}
+
+.mainpage a {
+      font-size: 25px;
+      font-weight: 700;
+      color: white;
+}
+
+
+
+.html-container {
+      display: flex;
+      background-color: #D9EEE1;
+      height: 500px;
+      justify-content: center;
+      align-items: center;
+      font-family: "Source Sans 3", sans-serif;
+      text-align: center;
+      padding-right: 20px;
+}
+
+button {
+      border-radius: 25px;
+      color: white;
+      font: bold;
+      width: 200px;
+      height: 40px;
+      font-size: 20px;
+
+      border: none;
+      margin-top: 30px !important;
+}
+
+img {
+      width: 400px;
+}
+
+p {
+      font-size: 25px;
+}
+
+h1 {
+      font-size: 60px;
+}
+
+.two,
+.four {
+      color: black;
+}
+
+.CSS-container {
+      display: flex;
+      background-color: #FFF4A3;
+      height: 500px;
+      justify-content: center;
+      align-items: center;
+      font-family: "Source Sans 3", sans-serif;
+      text-align: center;
+}
+
+.JavaScript {
+      display: flex;
+      background-color: #282A35;
+      height: 500px;
+      justify-content: center;
+      align-items: center;
+      font-family: "Source Sans 3", sans-serif;
+      text-align: center;
+
+
+}
+
+.python {
+      display: flex;
+      background-color: #F3ECEA;
+      height: 500px;
+      justify-content: center;
+      align-items: center;
+      font-family: "Source Sans 3", sans-serif;
+      text-align: center;
+
+
+}
+
+.SQL {
+      display: flex;
+      background-color: #96D4D4;
+      height: 500px;
+      justify-content: center;
+      align-items: center;
+      font-family: "Source Sans 3", sans-serif;
+      text-align: center;
+}
+
+h1 {
+      font-size: 45px;
+      font-weight: 700px;
+}
+
+.mayda {
+      display: grid;
+      grid-template-areas: 'a a';
+      justify-content: center;
+      gap: 40px 100px;
+      padding: 24px;
+}
+
+.php {
+      border-radius: 5px;
+      color: black;
+      background-color: #FFC0C7;
+      padding: 24px;
+      text-align: center;
+      height: 264px;
+      width: 620px;
+
+
+}
+
+.jquery {
+      height: 264px;
+      width: 620px;
+
+      border-radius: 5px;
+      color: black;
+      background-color: #FFF4A3;
+      padding: 24px;
+      text-align: center;
+
+}
+
+.Java {
+      height: 264px;
+      width: 620px;
+
+      border-radius: 5px;
+      color: black;
+      background-color: #F3ECEA;
+      padding: 24px;
+      text-align: center;
+
+}
+
+.C {
+      height: 264px;
+
+      width: 620px;
+      border-radius: 5px;
+      color: black;
+      background-color: #D9EEE1;
+      padding: 24px;
+      text-align: center;
+
+}
+
+.w {
+      height: 264px;
+      width: 620px;
+      border-radius: 5px;
+      color: black;
+      background-color: #96D4D4;
+      padding: 24px;
+      text-align: center;
+
+}
+
+.Boot {
+      height: 264px;
+
+      width: 620px;
+      border-radius: 5px;
+      color: black;
+      background-color: #E7E9EB;
+      padding: 24px;
+      text-align: center;
+
+}
+
+.too,
+.tooo {
+      border-radius: 5px;
+      color: black;
+      background-color: #E7E9EB;
+      padding: 25px;
+      text-align: center;
+      justify-content: center;
+
+}
+
+.miya {
+      background-color: #282A35;
+      gap: 100px;
+      padding-top: 50px;
+
+}
+
+.smallmany {
+
+      display: grid;
+      grid-template-areas: 'a a a a';
+      justify-content: center;
+      gap: 40px 114px;
+      padding-top: 40px;
+      color: black;
+      font-size: 30px;
+      font-weight: 500px;
+      font-family: 'Source Sans Pro', sans-serif;
+      cursor: pointer;
+      border-radius: 5px;
+
+
+}
+
+
+.grid {
+      width: 250px;
+      height: 100px;
+      padding: 24px;
+      text-align: center;
+
+      border-radius: 5px;
+      font-family: "Source Sans 3", sans-serif;
+}
+
+.too {
+      grid-column: 1/3;
+      grid-row: 1;
+}
+
+.tooo {
+      grid-column: 3/5;
+      grid-row: 1;
+
+}
+
+
+.bir {
+
+      background-color: #F3ECEA;
+
+
+}
+
+.ikki {
+
+      background-color: #D9EEE1;
+
+
+}
+
+.uch {
+
+      background-color: #96D4D4;
+
+
+}
+
+.tort {
+
+      background-color: #FFC0C7;
+
+
+}
+
+.besh {
+
+      background-color: #FFF4A3;
+}
+
+.lastone {
+      background-color: #D9EEE1;
+      height: 100px;
+
+      width: 620px;
+
+}
+
+.lasttwo {
+      background-color: #96D4D4;
+      height: 100px;
+
+      width: 620px;
+}
+
+.lastthree {
+      background-color: #FFC0C7;
+      height: 100px;
+
+      width: 620px;
+
+}
+
+.lastfour {
+      background-color: #FFF4A3;
+      height: 100px;
+
+      width: 620px;
+}
+
+.zzz {
+      display: grid;
+      grid-template-areas: 'a a';
+      justify-content: center;
+      gap: 40px 100px;
+      padding-top: 40px;
+      color: black;
+      font-size: 30px;
+      font-weight: 500px;
+      font-family: 'Source Sans Pro', sans-serif;
+      cursor: pointer;
+      border-radius: 5px;
+
+
+}
+
+.code-editor {
+      background-color: #282A35 !important;
+      color: white;
+      text-align: center;
+      padding: 100px 30px 100px 30px;
+}
+
+.code-editor h1 {
+      font-size: 65px;
+      font-weight: 700px;
+      text-align: center;
+
+}
+
+.code-editor h3 {
+      margin-top: 25px;
+      text-align: center !important;
+      font-weight: 400px;
+      font-size: 20px;
+}
+
+.code-editor img {
+      width: 1000px;
+      cursor: pointer;
+      height: 420px;
+}
+
+.sec {
+      background-color: #FFF4A3 !important;
+      color: black !important;
+      margin: 20px 00px 0px -610px !important;
+}
+
+.codeedit {
+
+      font-size: 19px;
+      font-family: 'Source Sans Pro', sans-serif;
+      border: none;
+      border-radius: 5px;
+      display: inline-block;
+      padding: 6px 18px;
+      font-weight: 400;
+      margin: 20px 690px 0px 00px;
+      color: inherit;
+      text-align: center;
+      cursor: pointer;
+
+      background-color: #04AA6D;
+      color: #ffffff;
+
+}
+
+.w3schoolpage {
+      background-color: #282A35 !important;
+      color: white;
+      text-align: center;
+      padding: 10px 30px 100px 30px;
+      text-align: center;
+      font-size: 15px;
+}
+
+.w3schoolpage img {
+      width: 1000px;
+      cursor: pointer;
+      height: 420px;
+      border-radius: 10px;
+}
+
+.w3schoolpage h1 {
+      font-size: 65px;
+      font-weight: 700;
+
+}
+
+.w3schoolpage h3 {
+      font-size: 24px;
+      font-weight: 500;
+}
+
+.w3schoolpage button {
+      padding: 11px 18px;
+      background-color: #04AA6D;
+      color: white;
+      margin: auto;
+      display: block;
+      border-radius: 25px;
+      text-align: center;
+      cursor: pointer;
+}
+
+.mylearningpage {
+      background-color: #D9EEE1 !important;
+      color: black;
+      text-align: center;
+      padding: 100px 30px 100px 30px;
+
+
+
+}
+
+.mylearningpage h1 {
+      font-size: 65px;
+      font-weight: 700;
+}
+
+.mylearningpage img {
+      width: 1000px;
+      cursor: pointer;
+      height: 420px;
+      border-radius: 10px;
+      margin-top: 15px;
+}
+
+.mylearningpage h4 {
+      margin-top: 15px;
+      font-weight: 500;
+      font-size: 25px;
+}
+
+.hoveryellow :hover {
+      background-color: rgb(243, 243, 52) !important;
+}
+
+.mylearningpage button {
+      padding: 11px 18px;
+      background-color: #04AA6D;
+      color: white;
+      margin: auto;
+      display: block;
+      border-radius: 25px;
+      text-align: center;
+      cursor: pointer;
+}
+
+.becomepage {
+      background-color: #282A35 !important;
+      color: white !important;
+
+      padding: 100px 30px 100px 30px;
+      text-align: center;
+      margin: auto;
+
+
+}
+
+.becomepage h1 {
+      font-weight: 700;
+      font-size: 52px;
+      line-height: 55px;
+      padding-top: 11px;
+      padding-bottom: 20px;
+      color: #fff;
+}
+
+.becomepage h3 {
+      font-size: 25px;
+      color: #FFC0C7;
+      margin: 19px 0;
+}
+
+li {
+      margin-left: -70px;
+      font-size: 26px;
+      font-weight: 400;
+      list-style-type: none;
+}
+
+.becomepage button {
+      padding: 11px 18px;
+      background-color: #04AA6D;
+      color: white;
+      margin-left: -80px;
+      display: block;
+      border-radius: 25px;
+      text-align: center;
+      cursor: pointer;
+}
+
+li img {
+      width: 20px;
+}
+
+.hovergreen :hover {
+      background-color: #058e5e;
+}
+
+.colorpicker {
+      background-color: #F3ECEA !important;
+      color: black !important;
+
+      padding: 100px 30px 100px 30px;
+      text-align: center;
+      margin: auto;
+      font-size: 15px;
+}
+
+.colorpicker h1 {
+      font-size: 65px;
+      font-weight: 700;
+}
+
+.colorpicker h4 {
+      font-size: 20px;
+      font-weight: 700;
+      margin: 25px;
+      font-family: 'Source Sans Pro', sans-serif;
+}
+
+.colorpicker img {
+      width: 150px;
+      height: 128px;
+      margin-top: 20px;
+}
+
+.gamepage {
+      background-color: #96D4D4 !important;
+      color: black !important;
+
+      padding: 100px 30px 100px 30px;
+      text-align: center;
+      margin: auto;
+
+}
+
+.gamepage h1 {
+      font-family: "Freckle Face", system-ui;
+      font-size: 64px;
+
+      font-weight: 400;
+      font-style: normal;
+}
+
+.gamepage h4 {
+      font-family: "Freckle Face", system-ui;
+      font-size: 40px;
+      font-weight: 400;
+      font-style: normal;
+      font-weight: 400;
+      margin: 25px;
+
+}
+
+.gamepage img {
+      width: 120px;
+      height: 200px;
+      margin-top: 20px;
+}
+
+.hover p {
+      color: white;
+      border-radius: 25px;
+      background-color: #282A35;
+      padding: 11px 18px;
+      margin: 15px 550px 15px 550px;
+}
+
+.exercise {
+
+      background-color: #282A35;
+      color: white;
+      padding: 60px 30px 60px 30px;
+
+      text-align: center;
+}
+
+.exercise h2 {
+      font-size: 65px;
+      font-weight: 700;
+
+}
+
+.exercise h4 {
+      font-size: 20px;
+
+}
+
+.exercise div {
+      display: inline-block;
+}
+
+.exer div {
+      padding-top: 70px;
+      width: 500px;
+      background-color: #04aa6a;
+      height: 200px;
+      margin: 30px;
+      font-size: 35px;
+      border-radius: 5px;
+      font-weight: 650;
+}
+
+.quiz div {
+      padding-top: 70px;
+      width: 500px;
+      background-color: #FFF4A3;
+      height: 200px;
+      margin: 30px;
+      font-size: 35px;
+      color: black;
+      border-radius: 5px;
+      font-weight: 650;
+}
+
+.exer :hover {
+      background-color: #029961;
+}
+
+.quiz :hover {
+      background-color: #ede080;
+}
+
+.webtemplates {
+
+      background-color: #E7E9EB !important;
+      color: black !important;
+      padding: 100px 30px 100px 30px;
+      text-align: center;
+}
+
+.webtemplates h1 {
+      font-size: 64px;
+
+      font-weight: 400;
+      font-style: normal;
+}
+
+.webtemplates h4 {
+      font-size: 25px;
+      font-weight: 400;
+      font-style: normal;
+      font-weight: 400;
+      margin: 25px;
+
+}
+
+.webtemplates img {
+      width: 1000px;
+      cursor: pointer;
+      height: 420px;
+      border-radius: 10px;
+      margin-top: 15px;
+
+}
+
+.webtemplates p {
+      color: white;
+      border-radius: 25px;
+      background-color: #282A35;
+      padding: 11px 18px;
+      margin: 15px 500px 15px 500px;
+}
+
+.hover :hover {
+      background-color: black;
+}
+
+.kick-star {
+      background-color: #282A35;
+      color: #FFC0C7;
+
+      padding: 50px 30px 0px 30px;
+      border: none;
+
+}
+
+.kick-star h2 {
+      font-size: 62px;
+      font-weight: 700;
+      margin: 62px 0px 63px 40px;
+
+}
+
+.kick-star p {
+      margin: 62px 0px 40px 40px;
+      font-size: 52px;
+      font-weight: 500;
+}
+
+.kick-star button {
+      margin: 0px 0px -40px 40px;
+      color: white;
+      background-color: #04AA6D;
+
+}
+
+.rotationimg {
+      margin-left: 900px;
+      margin-bottom: -6px !important;
+
+}
+
+.bottom {
+      margin-left: 1083px;
+      width: 247px;
+      margin-top: -.5px;
+}
+
+.how-to-section img {
+      width: 1200px;
+      cursor: pointer;
+      height: 620px;
+      border-radius: 10px;
+
+}
+
+.how-to-section {
+      background-color: white;
+      color: black;
+      text-align: center;
+      padding: 10px 30px 100px 30px;
+
+}
+
+.how-to-section h2 {
+      font-size: 60px;
+      margin: 10px 0px;
+}
+
+.how-to-section h4 {
+      font-size: 20px;
+      margin: 10px 0px;
+}
+
+.how-to-section h6 {
+      font-size: 16px;
+      margin: 10px 0px 20px 0px;
+}
+
+.how-to-section button {
+      margin-top: -10px !important;
+      background-color: #282A35;
+      width: 400px;
+      height: 50px;
+}
+
+.hovergreen :hover {
+      background-color: #029961;
+}
+
+.lastpage {
+      height: 900px;
+      background-image: url(https://www.w3schools.com/images/lynx_landing.webp), url(https://www.w3schools.com/images/background_in_space.webp);
+      background-color: #282A35;
+      background-repeat: no-repeat, repeat;
+      background-position: right bottom, center center;
+}
+
+.lastnav {
+      font-size: 15px;
+      padding: 90px 0px 0px 130px;
+      display: flex;
+      gap: 50px;
+      unicode-bidi: isolate;
+      color: #ede080;
+}
+
+.lastnav :hover {
+      text-decoration: underline;
+}
+
+.imghover :hover {
+      background-color: #ede080;
+}
+
+.culumn p {
+      width: 300px;
+      padding-left: 40px;
+      color: #ddd;
+      font-family: Source Sans Pro, sans-serif;
+      font-size: 12px;
+      line-height: 15px;
+      font-weight: 700;
+}
+
+.culumn h5 {
+      padding-left: 39px;
+      margin: 10px 0px 20px;
+      color: white;
+      font-size: 18px;
+}
+
+.bigcolumg {
+      display: flex;
+      flex-direction: row;
+      padding: 30px 0px 0px 90px;
+
+}
+
+.culumn :hover {
+      color: #ede080;
+}
+
+.fa :hover {
+      color: #ede080;
+      text-decoration: none !important;
+}
+
+.contacnav {
+      margin-left: 120px;
+      margin-top: 70px;
+      margin-bottom: -20px;
+
+
+}
+
+.fa {
+      color: white;
+      text-decoration: none !important;
+      float: left;
+      font: normal normal normal 14px / 1 fontawesome;
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      transform: translate(0, 0);
+
+      padding-right: 15px;
+}
+
+.yellovin :hover {
+      color: #FFF4A3;
+}
+
+.contacnav :hover {
+      color: #ede080;
+      text-decoration: underline;
+}
+
+.contacnav a {
+
+
+      text-decoration: none;
+      color: #ddd;
+      font-size: 15px;
+      font-weight: 700;
+
+}
+
+.infotag {
+      padding-top: 30px;
+}
+
+.infotag p {
+      font-weight: 700;
+      padding-left: 120px;
+      color: #ddd;
+      font-size: 12px;
+      line-height: 15px;
+}
+
+.p-hover a {
+      color: #ddd;
+}
+
+.p-hover :hover {
+      color: #ede080;
+}
